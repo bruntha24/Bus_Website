@@ -154,7 +154,7 @@ export default function BookingConfirmation() {
     };
 
     try {
-      const BASE_URL = "https://bus-website-na3y.onrender.com";
+      const BASE_URL = "https://bus-website-1-de9d.onrender.com/";
       const response = await fetch(`${BASE_URL}/api/bookings`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
