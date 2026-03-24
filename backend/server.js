@@ -15,7 +15,7 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:5173",   // Vite (local)
   "http://localhost:3000",   // CRA (local)
-  process.env.FRONTEND_URL   // Deployed frontend (Netlify)
+  "https://jovial-zuccutto-64310f.netlify.app/"   // Deployed frontend (Netlify)
 ];
 
 app.use(cors({
