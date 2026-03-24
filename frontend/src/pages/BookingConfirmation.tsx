@@ -250,8 +250,8 @@ export default function BookingConfirmation() {
                 <Download className="mr-2 h-5 w-5 text-[#FF6B00]" />
                 {isDownloading ? "GENERATING PDF..." : "DOWNLOAD PDF TICKET"}
               </Button>
-             <Button
-  className="font-bold text-white bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 shadow-lg px-6 py-2 rounded-xl"
+       <Button
+  className="font-bold text-white bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 shadow-lg px-6 py-2 rounded-xl"
   onClick={() => {
     reset();
     navigate("/");
