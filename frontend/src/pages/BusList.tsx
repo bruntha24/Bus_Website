@@ -68,7 +68,7 @@ export default function BusList() {
       try {
         setLoading(true);
         // FETCHING ALL BUSES (We will filter them in useMemo for better UX)
-        const BASE_URL = "https://bus-website-1-de9d.onrender.com/";
+        const BASE_URL = "https://bus-website-2-tg5n.onrender.com/";
         const res = await fetch(`${BASE_URL}/api/buses`);
         const data = await res.json();
         setBuses(data);
