@@ -6,9 +6,7 @@ import {
   Calendar, MapPin, Bus, XCircle, Clock, 
   Trash2, AlertCircle, ArrowRight, CheckCircle2, HelpCircle 
 } from "lucide-react";
-
-const API_BASE_URL = "http://localhost:5000/api/bookings";
-
+const API_BASE_URL = "https://bus-website-na3y.onrender.com/api/bookings";
 export default function BookingHistory() {
   const [bookings, setBookings] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
